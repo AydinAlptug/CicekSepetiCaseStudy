@@ -1,18 +1,18 @@
-version 2
-jobs
- build
-   machine true
-   steps
+version: 2
+jobs:
+ build:
+   machine: true
+   steps:
      - checkout 
 
      # build image
-     - run          
+     - run: |         
          docker info
          docker build -t aspnetapp -f Dockerfile .
      # deploy the image
-     - run          
+     - run: |         
          docker login --username=$HEROKU_USERNAME --password=$HEROKU_API_KEY registry.heroku.com
-         docker tag aspnetapp registry.heroku.com$HEROKU_APP_NAMEweb
-         docker push registry.heroku.com$HEROKU_APP_NAMEweb                
-         curl httpscli-assets.heroku.cominstall.sh  sh
-         heroku containerrelease web -a $HEROKU_APP_NAME
+         docker tag aspnetapp registry.heroku.com/$HEROKU_APP_NAME/web
+         docker push registry.heroku.com/$HEROKU_APP_NAME/web                
+         curl https://cli-assets.heroku.com/install.sh | sh
+         heroku container:release web -a $HEROKU_APP_NAME
