@@ -150,7 +150,7 @@ namespace CicekSepetiCaseStudy.Test
             BasketProduct test_product;
 
             var options = new DbContextOptionsBuilder<CartDbContext>()
-                             .UseInMemoryDatabase("test_cart_db_4")
+                             .UseInMemoryDatabase("test_cart_db_5")
                              .Options;
             using (var context = new CartDbContext(options))
             {
