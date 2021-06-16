@@ -4,10 +4,15 @@ WORKDIR /app
 # copy csproj and restore as distinct layers
 COPY *.sln .
 COPY CQRSDeneme/*.csproj ./CQRSDeneme/
+COPY CQRSDeneme.Core/*.csproj ./CQRSDeneme.Core/
+COPY CQRSDeneme.Data/*.csproj ./CQRSDeneme.Data/
 RUN dotnet restore
 
 # copy everything else and build app
 COPY CQRSDeneme/. ./CQRSDeneme/
+COPY CQRSDeneme.Core/. ./CQRSDeneme.Core/
+COPY CQRSDeneme.Data/. ./CQRSDeneme.Data/
+
 WORKDIR /app/CQRSDeneme
 RUN dotnet publish -c Release -o out
 
