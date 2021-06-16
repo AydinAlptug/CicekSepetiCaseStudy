@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicekSepetiCaseStudy.Data",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicekSepetiCaseStudy.Core", "CicekSepetiCaseStudy.Core\CicekSepetiCaseStudy.Core.csproj", "{72E7498A-DB52-44A4-9A98-BB86549F913A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CicekSepetiCaseStudy.Test", "CicekSepetiCaseStudy.Test\CicekSepetiCaseStudy.Test.csproj", "{860968BF-D8B7-45D4-99DD-EDBACB9F8439}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{72E7498A-DB52-44A4-9A98-BB86549F913A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72E7498A-DB52-44A4-9A98-BB86549F913A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72E7498A-DB52-44A4-9A98-BB86549F913A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{860968BF-D8B7-45D4-99DD-EDBACB9F8439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{860968BF-D8B7-45D4-99DD-EDBACB9F8439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{860968BF-D8B7-45D4-99DD-EDBACB9F8439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{860968BF-D8B7-45D4-99DD-EDBACB9F8439}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
