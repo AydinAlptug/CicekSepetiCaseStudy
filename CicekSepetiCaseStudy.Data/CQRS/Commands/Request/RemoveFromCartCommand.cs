@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CQRSDeneme.Data.CQRS.Commands.Request
+namespace CicekSepetiCaseStudy.Data.CQRS.Commands.Request
 {
     public class RemoveFromCartCommand : IRequest<int>
     {

@@ -13,4 +13,9 @@
     <PackageReference Include="coverlet.collector" Version="1.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CicekSepetiCaseStudy.Core\CicekSepetiCaseStudy.Core.csproj" />
+    <ProjectReference Include="..\CicekSepetiCaseStudy.Data\CicekSepetiCaseStudy.Data.csproj" />
+  </ItemGroup>
+
 </Project>

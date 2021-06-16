@@ -2,13 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using CQRSDeneme.Data.Context;
+using CicekSepetiCaseStudy.Data.Context;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace CQRSDeneme
+namespace CicekSepetiCaseStudy
 {
     public class Program
     {

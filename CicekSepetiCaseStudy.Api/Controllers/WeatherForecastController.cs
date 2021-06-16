@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace CQRSDeneme.Controllers
+namespace CicekSepetiCaseStudy.Controllers
 {
     [ApiController]
     [Route("[controller]")]

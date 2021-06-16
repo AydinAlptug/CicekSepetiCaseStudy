@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using CQRSDeneme.Core.Models;
-using CQRSDeneme.Data.Context;
-using CQRSDeneme.Data.CQRS.Queries.Request;
-using CQRSDeneme.Data.Services.StockService;
-using CQRSDeneme.Data.Services.StrockService;
-using CQRSDeneme.Services;
+using CicekSepetiCaseStudy.Core.Models;
+using CicekSepetiCaseStudy.Data.Context;
+using CicekSepetiCaseStudy.Data.CQRS.Queries.Request;
+using CicekSepetiCaseStudy.Data.Services.StockService;
+using CicekSepetiCaseStudy.Data.Services.StrockService;
+using CicekSepetiCaseStudy.Services;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -20,7 +20,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace CQRSDeneme
+namespace CicekSepetiCaseStudy
 {
     public class Startup
     {

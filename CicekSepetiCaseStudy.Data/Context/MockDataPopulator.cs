@@ -1,10 +1,10 @@
-﻿using CQRSDeneme.Core.Models;
+﻿using CicekSepetiCaseStudy.Core.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CQRSDeneme.Data.Context
+namespace CicekSepetiCaseStudy.Data.Context
 {
     public class MockDataPopulator
     {

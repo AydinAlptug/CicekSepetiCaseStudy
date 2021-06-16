@@ -1,5 +1,5 @@
-﻿using CQRSDeneme.Core.Models;
-using CQRSDeneme.Data.Context;
+﻿using CicekSepetiCaseStudy.Core.Models;
+using CicekSepetiCaseStudy.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CQRSDeneme.Services
+namespace CicekSepetiCaseStudy.Services
 {
     public class CartService : ICartService
     {
@@ -21,6 +21,11 @@ namespace CQRSDeneme.Services
 
         public async Task<BasketProduct> AddProductToCartAsync(BasketProduct product)
         {
+            
+            if (context.Cart.Contains(product))
+            {
+                return default;
+            }
             context.Cart.Add(product);
             await context.SaveChangesAsync();
             return product;

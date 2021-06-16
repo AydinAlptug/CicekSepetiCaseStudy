@@ -1,7 +1,7 @@
-﻿using CQRSDeneme.Core.Models;
-using CQRSDeneme.Data.CQRS.Commands.Request;
-using CQRSDeneme.Data.CQRS.Queries.Request;
-using CQRSDeneme.Data.Services.StrockService;
+﻿using CicekSepetiCaseStudy.Core.Models;
+using CicekSepetiCaseStudy.Data.CQRS.Commands.Request;
+using CicekSepetiCaseStudy.Data.CQRS.Queries.Request;
+using CicekSepetiCaseStudy.Data.Services.StrockService;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CQRSDeneme.Controllers
+namespace CicekSepetiCaseStudy.Controllers
 {
     [Route("[controller]")]
     [ApiController]

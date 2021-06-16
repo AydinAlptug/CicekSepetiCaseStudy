@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace CQRSDeneme.Core.Models
+namespace CicekSepetiCaseStudy.Core.Models
 {
     public class BasketProduct : Product
     {

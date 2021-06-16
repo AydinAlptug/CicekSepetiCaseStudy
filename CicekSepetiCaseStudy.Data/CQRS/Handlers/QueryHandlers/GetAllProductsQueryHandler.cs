@@ -1,6 +1,6 @@
-﻿using CQRSDeneme.Core.Models;
-using CQRSDeneme.Data.CQRS.Queries.Request;
-using CQRSDeneme.Services;
+﻿using CicekSepetiCaseStudy.Core.Models;
+using CicekSepetiCaseStudy.Data.CQRS.Queries.Request;
+using CicekSepetiCaseStudy.Services;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CQRSDeneme.Data.CQRS.Handlers.QueryHandlers
+namespace CicekSepetiCaseStudy.Data.CQRS.Handlers.QueryHandlers
 {
     public class GetAllProductsQueryHandler : IRequestHandler<GetAllProductsQuery, IEnumerable<BasketProduct>>
     {

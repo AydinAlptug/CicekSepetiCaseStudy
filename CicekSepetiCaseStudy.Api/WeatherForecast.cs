@@ -1,6 +1,6 @@
 using System;
 
-namespace CQRSDeneme
+namespace CicekSepetiCaseStudy
 {
     public class WeatherForecast
     {

@@ -1,10 +1,10 @@
-﻿using CQRSDeneme.Core.Models;
+﻿using CicekSepetiCaseStudy.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CQRSDeneme.Data.Services.StrockService
+namespace CicekSepetiCaseStudy.Data.Services.StrockService
 {
     public interface IStockService
     {

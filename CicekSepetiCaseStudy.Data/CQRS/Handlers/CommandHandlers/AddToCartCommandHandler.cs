@@ -1,7 +1,7 @@
-﻿using CQRSDeneme.Core.Models;
-using CQRSDeneme.Data.CQRS.Commands.Request;
-using CQRSDeneme.Data.Services.StrockService;
-using CQRSDeneme.Services;
+﻿using CicekSepetiCaseStudy.Core.Models;
+using CicekSepetiCaseStudy.Data.CQRS.Commands.Request;
+using CicekSepetiCaseStudy.Data.Services.StrockService;
+using CicekSepetiCaseStudy.Services;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CQRSDeneme.Data.CQRS.Handlers.CommandHandlers
+namespace CicekSepetiCaseStudy.Data.CQRS.Handlers.CommandHandlers
 {
     public class AddToCartCommandHandler : IRequestHandler<AddToCartCommand, BasketProduct>
     {

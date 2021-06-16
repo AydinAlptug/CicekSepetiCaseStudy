@@ -1,5 +1,5 @@
-﻿using CQRSDeneme.Data.CQRS.Commands.Request;
-using CQRSDeneme.Services;
+﻿using CicekSepetiCaseStudy.Data.CQRS.Commands.Request;
+using CicekSepetiCaseStudy.Services;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CQRSDeneme.Data.CQRS.Handlers.CommandHandlers
+namespace CicekSepetiCaseStudy.Data.CQRS.Handlers.CommandHandlers
 {
     public class RemoveFromCartCommandHandler : IRequestHandler<RemoveFromCartCommand, int>
     {

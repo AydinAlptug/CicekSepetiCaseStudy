@@ -1,13 +1,13 @@
-﻿using CQRSDeneme.Core.Models;
-using CQRSDeneme.Data.Context;
-using CQRSDeneme.Data.Services.StrockService;
+﻿using CicekSepetiCaseStudy.Core.Models;
+using CicekSepetiCaseStudy.Data.Context;
+using CicekSepetiCaseStudy.Data.Services.StrockService;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CQRSDeneme.Data.Services.StockService
+namespace CicekSepetiCaseStudy.Data.Services.StockService
 {
     public class StockService : IStockService
     {
