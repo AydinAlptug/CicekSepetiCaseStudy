@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CQRSDeneme.Data\CQRSDeneme.Data.csproj" />
+    <ProjectReference Include="..\CicekSepetiCaseStudy.Data\CicekSepetiCaseStudy.Data.csproj" />
   </ItemGroup>
 
 

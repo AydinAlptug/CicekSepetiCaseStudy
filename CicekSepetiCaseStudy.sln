@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSDeneme", "CQRSDeneme\CQRSDeneme.csproj", "{DEDA86E9-5770-44EB-8CC7-4377E16A6EB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicekSepetiCaseStudy.Api", "CicekSepetiCaseStudy.Api\CicekSepetiCaseStudy.Api.csproj", "{DEDA86E9-5770-44EB-8CC7-4377E16A6EB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSDeneme.Data", "CQRSDeneme.Data\CQRSDeneme.Data.csproj", "{A525131F-1E6E-410C-8E09-D0412B59B30A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicekSepetiCaseStudy.Data", "CicekSepetiCaseStudy.Data\CicekSepetiCaseStudy.Data.csproj", "{A525131F-1E6E-410C-8E09-D0412B59B30A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSDeneme.Core", "CQRSDeneme.Core\CQRSDeneme.Core.csproj", "{72E7498A-DB52-44A4-9A98-BB86549F913A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicekSepetiCaseStudy.Core", "CicekSepetiCaseStudy.Core\CicekSepetiCaseStudy.Core.csproj", "{72E7498A-DB52-44A4-9A98-BB86549F913A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
