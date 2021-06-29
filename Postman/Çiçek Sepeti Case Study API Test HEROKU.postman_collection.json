@@ -1,0 +1,171 @@
+{
+	"info": {
+		"_postman_id": "f79adabc-1042-4e2b-adbc-5217ae298579",
+		"name": "Çiçek Sepeti Case Study API Test HEROKU",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Products in Cart",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cicek-sepeti-case-study.herokuapp.com/cart/",
+					"protocol": "https",
+					"host": [
+						"cicek-sepeti-case-study",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"cart",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Specific Product in Cart",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cicek-sepeti-case-study.herokuapp.com/cart/2",
+					"protocol": "https",
+					"host": [
+						"cicek-sepeti-case-study",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"cart",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add to Cart Post - Adding first time",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productId\": 1,\r\n    \"amount\" : 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cicek-sepeti-case-study.herokuapp.com/cart/",
+					"protocol": "https",
+					"host": [
+						"cicek-sepeti-case-study",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"cart",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add to Cart Post - Already previously added product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productId\": 3,\r\n    \"amount\" : 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cicek-sepeti-case-study.herokuapp.com/cart/",
+					"protocol": "https",
+					"host": [
+						"cicek-sepeti-case-study",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"cart",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Remove From Cart Post - Remove some amount",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productId\": 3,\r\n    \"amount\" : 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cicek-sepeti-case-study.herokuapp.com/cart/",
+					"protocol": "https",
+					"host": [
+						"cicek-sepeti-case-study",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"cart",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Remove From Cart Post - Remove all amount",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productId\": 3,\r\n    \"amount\" : 999999\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cicek-sepeti-case-study.herokuapp.com/cart/",
+					"protocol": "https",
+					"host": [
+						"cicek-sepeti-case-study",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"cart",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

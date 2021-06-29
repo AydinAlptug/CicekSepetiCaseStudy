@@ -1,0 +1,165 @@
+{
+	"info": {
+		"_postman_id": "28832546-6ba8-48d8-8a4c-b340bda84a02",
+		"name": "Çiçek Sepeti Case Study API Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Products in Cart",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44375/cart/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44375",
+					"path": [
+						"cart",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Specific Product in Cart",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44375/cart/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44375",
+					"path": [
+						"cart",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add to Cart Post - Adding first time",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productId\": 1,\r\n    \"amount\" : 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44375/cart/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44375",
+					"path": [
+						"cart",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add to Cart Post - Already previously added product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productId\": 3,\r\n    \"amount\" : 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44375/cart/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44375",
+					"path": [
+						"cart",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Remove From Cart Post - Remove some amount",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productId\": 3,\r\n    \"amount\" : 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44375/cart/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44375",
+					"path": [
+						"cart",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Remove From Cart Post - Remove all amount",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productId\": 3,\r\n    \"amount\" : 999999\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44375/cart/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44375",
+					"path": [
+						"cart",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
